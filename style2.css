@@ -1,0 +1,34 @@
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+
+}
+@media(width: 400px){
+    h1 {
+
+        background-color: red;
+        color: white;
+    }
+    DIV {
+        height: 100PX;
+        width: 100PX;
+        background-color: BLUE;
+
+    }
+}
+@media(MIN-WIDTH:700PX){
+    H1{
+        background-color: greenyellow;
+    }
+}
+
+@media(MAX-WIDTH:700PX){
+    H1{
+        background-color: pink;
+    }
+}
+@MEDIA (MIN-WIDTH:200PX) AND (MAX-WIDTH:300PX){
+    H1 {
+        background-color: magenta;
+    }
+}
